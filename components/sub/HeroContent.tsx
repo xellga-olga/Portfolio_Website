@@ -41,7 +41,7 @@ const HeroContent = () => {
                variants={slideInFromLeft(0.8)}
                className="text-lg text-gray-400 my-5 max-w-[600px]"
             >
-               I’m a Front-End Developer for web and mobile platforms. <br/>I create modern and user-friendly interfaces.<br /> Check out my projects and skills.
+              Hello I'm ,👋 Olya Plakhotnikova.<br/> I’m a Front-End Developer for web and mobile platforms. I create modern and user-friendly interfaces. Check out my projects and skills.
             </motion.p>
             <motion.a
                variants={slideInFromLeft(1)}
