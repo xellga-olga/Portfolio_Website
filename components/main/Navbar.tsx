@@ -12,6 +12,7 @@ const Navbar = () => {
             >
                <Image
                   src="/logo_navbar.png"
+                  priority={true} 
                   alt="logo"
                   width={70}
                   height={70}
@@ -28,6 +29,7 @@ const Navbar = () => {
                   <a href="#about-me" className="cursor-pointer">About me</a>
                   <a href="#skills" className="cursor-pointer">Skills</a>
                   <a href="#projects" className="cursor-pointer">Projects</a>
+                  <a href="#contact" className="cursor-pointer">Contact</a>
                </div>
             </div>
 

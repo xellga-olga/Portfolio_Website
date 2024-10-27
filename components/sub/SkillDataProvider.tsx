@@ -18,8 +18,8 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
   });
 
   const imageVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1 },
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
   };
 
   const animationDelay = 0.3;
@@ -30,7 +30,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
       variants={imageVariants}
       animate={inView ? "visible" : "hidden"}
       custom={index}
-      transition={{ delay: index * animationDelay }}
+      transition={{ delay: index * animationDelay, duration: 0.5 }}
     >
       <Image src={src} width={width} height={height} alt="skill image" />
     </motion.div>
